@@ -1,0 +1,169 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+#Generale{
+width: 90%;
+max-width: 1200px;
+margin:0 auto;
+padding: 10px;
+}
+
+
+nav{
+background-color: #691212;
+padding: 10px 20px;
+color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.Vitra a {
+color: white;
+text-decoration: none;
+}
+
+.Vitra a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+h1{
+color:black;
+text-align: center;
+text-transform: uppercase;
+margin-top: 30px;
+}
+p{
+    width: 100%;
+    text-align: center;
+    margin-top:10px;
+    justify-content: center;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3{
+margin-top: 45px;
+text-align: center;
+justify-content: center;
+width: 100%;
+
+}
+
+#button{
+justify-content: left;
+background-color: black;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border: 2px solid black;
+border-radius: 5px;
+box-shadow: 4px 4px 8px;
+margin-top: 30px;
+}
+#button:hover{
+background-color: white;
+color:black
+}
+
+#galleria, #galleria2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#galleria img,
+#galleria2 img {
+    
+    width: 30%;
+    margin: 5px;
+    border: 2px solid black;
+    justify-content: space-between;
+    vertical-align: top;
+    
+    
+}
+
+#fotogrande1 {
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 800px;
+    border: 2px solid black;
+    margin-top:30px;
+}
+footer{
+  background-color: #691212;
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+@media (max-width:992px){
+nav ul {
+    flex-direction: column;
+
+}
+#linkedin-link {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+#galleria img, #galleria2 img {
+    width: 45%;
+
+}
+
+h1,p {
+width: 100%;
+margin-left: 0;
+}
+
+#footer{
+    width: 100%;
+    background-color: #691212;
+    padding:50px 0;
+    width: 100%;
+}
+
+
+
+
+}
+
+@media(max-width: 768px){
+h1,p{
+
+    width: 100%;
+    text-align: center;
+}
+#fotogrande1 {
+width: 100%;
+max-width: none;
+
+}
+
+#galleria img, #galleria2 img {
+width: 100%;
+margin: 10px 0;
+}
+
+
+}
